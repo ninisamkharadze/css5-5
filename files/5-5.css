@@ -1,0 +1,524 @@
+* {
+    margin: 0;
+}
+
+.everythingDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 112px;
+    background-color: #040405;
+}
+
+#headerDiv {
+    display: flex;
+    flex-direction: row;
+    padding: 16px 200px;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #003004;
+}
+
+.aDiv {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    text-decoration: none;
+}
+
+.a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+.headerButton {
+    width: 167px;
+    height: 48px;
+    color: #000;
+    background-color: #00FF1A;
+    border: none;
+    border-radius: 24px;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 14px 24px;
+}
+
+.mainDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 112px;
+}
+
+.textAndImgDiv {
+    display: flex;
+    flex-direction: row;
+    width: 1040px;
+    justify-content: space-between;
+}
+
+.textDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.firstSpan {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+h1 {
+    color: #fff;
+    font-size: 72px;
+    font-weight: 900;
+}
+
+.imgAmndTextP {
+    color: #7A7A7A;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.greenAndBlackButtonDiv {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+.greenButton {
+    color: #000;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: #00FF1A;
+    border: none;
+    border-radius: 24px;
+    padding: 14px 24px;
+}
+
+.blackButton {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: #000;
+    border: 1px solid #00FF1A;
+    border-radius: 24px;
+    padding: 14px 24px;
+}
+
+.coastDiv {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 1040px;
+    gap: 40px;
+    border-top: 1px solid #00FF1A
+}
+
+.firstSpanStyles {
+    color: #fff;
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.secondSpanStyles {
+    color: #7A7A7A;
+    font-size: 20px;
+}
+
+.CoastDivDivs {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.secondTextAndImgDiv {
+    display: flex;
+    flex-direction: row;
+    width: 1040px;
+    height: 484px;
+    align-items: center;
+}
+
+.secondTextDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.secondTextDivh2 {
+    color: #fff;
+    font-size: 72px;
+    font-weight: 900;
+}
+
+.listDiv {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    align-items: flex-start;
+}
+
+.firstH3 {
+    color: #fff;
+    font-size: 32px;
+    font-weight: 900;
+}
+
+.listFirstSpan {
+    color: #7A7A7A;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.listTextDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.cardAndTextDiv {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+}
+
+.cardAndTextSpan {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.firstCard {
+    display: flex;
+    flex-direction: column;
+    gap: 37px;
+    width: 245px;
+    align-items: center;
+}
+
+.h3Styles {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.imgStyles {
+    width: 56px;
+    height: 56px;
+}
+
+.pStyles {
+    color: #7A7A7A;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.firstCardTextDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+}
+
+.just {
+    display: flex;
+    flex-direction: row;
+}
+
+.textAndCardDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: center;
+}
+
+.h2AndSpanDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: center;
+}
+
+.cardSpan {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.imgAndCardDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 37px;
+    align-items: center;
+}
+
+.justImgDib {
+    display: flex;
+    flex-direction: row;
+    gap: 213px;
+}
+
+.justCardDiv {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 245px;
+    align-items: center;
+    text-align: center;
+    gap: 12px;
+}
+
+.registerH3 {
+    color: #fff;
+    font-weight: 900;
+    font-size: 24px;
+}
+
+.cardP {
+    color: #7A7A7A;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.textAndRightImgDiv {
+    display: flex;
+    flex-direction: row;
+    gap: 22px;
+}
+
+.leftTextDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 509px;
+}
+
+.textPartOne {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 509px;
+}
+
+.h3AndPDiv {
+    display: flex;
+    flex-direction: column;
+}
+
+.firstH3AndP {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    border-left: 2px solid #00FF1A;
+    padding-left: 16px;
+    padding-bottom: 24px;
+}
+
+.secondH3AndP {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    border-left: 2px solid #4A4A4E;
+    padding-left: 16px;
+    padding-bottom: 24px;
+}
+
+.thirdH3AndP {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    border-left: 2px solid #4A4A4E;
+    padding-left: 16px;
+    padding-bottom: 24px;
+}
+
+.greensomethinImg {
+    height: 481px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 225px;
+}
+
+.costumerServiceDiv {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    height: 416px;
+    background-color: #1C1C20;
+    padding: 24px 32px;
+}
+
+.footerTextDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 440px;
+}
+
+.footerFirstSpan {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.newYourkSpan {
+    font-size: 14px;
+    font-weight: 500;
+    color: #7A7A7A;
+}
+
+.img {
+    width: 32px;
+    height: 32px;
+}
+
+.footerH3 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.footerTextDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.footerP {
+    color: #B7B7B7;
+    font-size: 22px;
+    line-height: 136.023%;
+}
+
+.imgDiv {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.costumer {
+    width: 104px;
+    height: 104px;
+}
+
+.imgDivCostumerAndButtons {
+    display: flex;
+    flex-direction: column;
+    gap: 224px;
+}
+
+.contactDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 32px;
+    background-color: #1C1C20;
+}
+
+.contactH3 {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.costumerAndContactDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.phoneDiv {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    align-items: center;
+}
+
+.formAndContactAndCostumer {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
+.formDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 24px 32px;
+    background-color: #1C1C20;
+    justify-content: center;
+}
+
+.formH3 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.formInputStyles {
+    padding: 12px 16px;
+    border-radius: 4px;
+    border: 1px solid #565656;
+    background-color: #1C1C20;
+}
+
+.submit {
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 4px;
+    background: #00FF1A;
+    padding: 12px 16px;
+    border: none;
+}
+
+.spanForm {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.footerNav {
+    display: flex;
+    flex-direction: row;
+    padding: 40px 200px;
+    width: 69.5vw;
+    align-items: flex-start;
+    justify-content: space-between;
+    border-top: 1px solid #00FF1A;
+}
+
+.navFirstColumn {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.navFirstColumn > a {
+    font-size: 16px;
+    font-weight: 500;
+    color: #7A7A7A;
+}
+
+.socialIconLogosDiv {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
