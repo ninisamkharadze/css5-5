@@ -522,3 +522,7 @@ footer {
     flex-direction: row;
     gap: 16px;
 }
+
+#description {
+    height: 115px;
+}
